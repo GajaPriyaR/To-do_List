@@ -35,7 +35,7 @@ function login(e) {
   if (data == null) {
     alert("Wrong");
   } else if (username == data.username && password == data.password && terms) {
-    window.location = "http://127.0.0.1:5500/home.html";
+    window.location = "https://gajapriyar.github.io/To-do_List/home.html";
   } else {
     alert("Enter the correct details");
   }
